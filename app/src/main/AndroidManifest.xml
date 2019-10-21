@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gohool.theblog.blog">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_cart"
+        android:label="NearBuy"
+        android:roundIcon="@drawable/ic_cart"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.OrderPlaced"></activity>
+        <activity android:name=".Activities.BuyNow" />
+        <activity android:name=".Activities.ActivitySplash" />
+        <activity android:name=".Activities.Orders" />
+        <activity android:name=".Activities.ActivityCart" />
+        <activity android:name=".Activities.ActivityAbout" />
+        <activity android:name=".Activities.BuyItem" />
+        <activity android:name=".Activities.ShowProductActivity" />
+        <activity android:name=".Activities.CustomerMainActivity" />
+        <activity android:name=".Activities.CustomerMainActivityNew" />
+        <activity android:name=".Activities.ActivityFood" />
+        <activity android:name=".Activities.ActivityCosmetics" />
+        <activity android:name=".Activities.ActivityClothing" />
+        <activity android:name=".Activities.ActivityFootwear" />
+        <activity android:name=".Activities.RetailerActivity" />
+        <activity android:name=".Activities.Retailer" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity android:name=".Activities.PostListActivity" />
+        <activity android:name=".Activities.AddPostActivity" />
+        <activity android:name=".Activities.CreateAccountActivity" />
+        <activity android:name=".Activities.CustomerSignUp" />
+        <activity android:name=".Activities.CustomerLogin" />
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gohool.theblog.blog.Activities.FirstActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NearBuy"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#FFC300"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="115dp"/>
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        android:text="Continue as Customer"
+        android:layout_marginTop="200dp"/>
+
+
+    <Button
+        android:id="@+id/retailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue as Retailer"
+        android:background="@color/header"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
